@@ -1,50 +1,80 @@
-GROUP PROJECT PROPOSAL
-    1. GROUP MEMBER
-    • Requirement Specification –    Varun
-    • Design Docs    -   Tejam
-    • Implementation-    Abdul Rehman
-    • Testing -               Sravan
+                                                                        GROUP PROJECT PROPOSAL
+                                                                        
+1.	GROUP MEMBER
 
-    2. INTRODUCTION
-
-
-Hush Android chat app, which is a chat application used for personal and office purposes. It will help to chat with friends and office colleagues. Mainly, it will help people who want to hide their conversation. Languages that have been used are Java and Kotlin, developed in Android.
-
-    3. OBJECTIVES AND FUNCTIONALITY
-
-The main goal of Hush is a secure messaging app featuring end-to-end encryption as well as the ability to encrypt your messages so no one can read them. You can safely text a friend or family member your personal details like banking info, phone numbers, and health information, and much more
-    • Sign in or Sign up using phone number
-    • One to One chat
-    • FireBase Real Time Chat Integration
-    • Sent/Delivered Indication
-    • Group chat
-    • Status Updating Feature
-    • Encrypt and decrypt messages
-    • Beautiful Material Design
-    • Sweet and Clean animations
-    • Image Sharing
-    • User Guide
+	Requirement Specification >    Varun
+	Design Documentation >         Tejam
+	Implementation >               Abdul Rehman
+	Testing >                      Sravan
 
 
-    4. SCOPE
+2.	INTRODUCTION
 
-Hush is an Android partner for individual medicine management, focused on individuals who have trouble following their prescription routine, neglect to consume their medications, or have complex timetables that are hard to recollect. It is developed in a Java environment; we will be testing the following option available on the application.
-
-    • Dashboard
-    • Chat
-    • Profile
-    • Contacts
-    • Settings.
+Hush Android chat app, which is a chat application used for personal and office purposes. It will help to chat with friends and office colleagues.
+Mainly, it will help people who want to hide their conversation. Languages that have been used are Java and XML, developed in Android.
 
 
+3.	OBJECTIVES AND FUNCTIONALITY
 
-    5. HARDWARE REQUIREMENTS
+The main goal of Hush is a secure messaging app featuring end-to-end encryption as well as the ability to encrypt your messages so no one can read them.
+You can safely text a friend or family member your personal details like banking info, phone numbers, health information, and much more
 
-    • Cell Phone supported Android version is 5.1, Jellybean and above version of Android, or
-    • It can also work on Microsoft Windows® 7/8/10 (64-bit) with Android studio with 4GB RAM minimum, 8GB RAM recommended.
+	Sign in or Sign up using your phone number
+	One to One chat
+	Firebase Real Time Chat Integration
+	Group chat
+	Status Updating Feature
+	Encrypt and decrypt messages
+	Beautiful Material Design
+	Sweet and Clean animations
+	Image Sharing
+	User Guide
 
-    6. ENVIRONMENT REQUIREMENTS
-    • Android Studio
-    • Android SDK Tools
-    • Android Virtual Device
-    • Windows 7/8/10 or Android Cell Phone with Android V.4 or higher with 4 GB or 8 GB(Recommended)
+
+4.	SCOPE
+
+Hush is an Android chat app, focused on individuals who have trouble following safely texting with loved ones and want to hide their conversation.
+It is developed in a Java and XML environment, The Main Features of the application.
+
+	Dashboard
+	Chat
+	Profile
+	Contacts
+	Settings
+
+
+5.	HARDWARE REQUIREMENTS
+
+	Cell Phone supported Android version is 5.1, Lollipop and above version of Android, or
+-	It can also work on Microsoft Windows® 7/8/10 (64-bit) with Android studio installed and has a RAM OF MINIMUM 4GB (8GB RAM recommended).
+
+6.	ENVIRONMENT REQUIREMENTS
+	Android Studio
+	Android SDK Tools
+	Android Virtual Device
+	JDK
+	Windows 7/8/10 or Android Cell Phone with Android V.5 or higher and has minimum RAM of 4 GB (8 GB Recommended)
+
+
+
+7.	BACKEND TECHNOLOGIES
+
+	Firebase Authentication
+	Firebase real-time database
+	Firebase Cloud storage
+	Firebase Cloud function for push notification with Node JS.
+
+
+Schedule & Distribution of Work
+
+
+	Project Proposal         - (09/28/22)		     : Contribution of Entire team      
+	Project Requirements     - (10/5/22)		     : Contribution of Entire team
+	Project Design           - (10/19/22) 	         : Contribution of Entire team
+	Initial Version           - (11/09/22)			 : Contribution of Entire team 
+	Test Plan And Cases       - (10/26/22)		     : Contribution of Entire team
+	Final Product              - (12/05/22)		      : Contribution of Entire team
+	Project Presentation       - (12/05/22)		      : Contribution of Entire team
+
+
+
