@@ -1,0 +1,4 @@
+#Wed Nov 16 17:11:07 EST 2022
+base.0=D\:\\Projects\\NotChat\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
