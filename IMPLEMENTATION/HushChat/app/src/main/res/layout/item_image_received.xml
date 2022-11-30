@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:background="@drawable/round_grey_bg"
+            android:padding="6dp"
+            android:layout_gravity="left"
+            android:orientation="horizontal"
+            >
+
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="65dp"
+                android:src="@drawable/imagethumbnailbackground"
+                android:layout_gravity="right|center"
+                android:id="@+id/imagethumbnail"
+                android:layout_marginLeft="5dp"
+                android:paddingTop="5dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tap to view"
+                android:textColor="@color/colorAccent"
+                android:id="@+id/clicktodownoad"
+                android:fontFamily="@font/roboto_medium"
+                android:textSize="18sp"
+                android:paddingTop="23dp"
+                android:paddingLeft="10dp"
+
+
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:text="12:20 AM"
+        android:fontFamily="@font/roboto_light"
+        android:textSize="12sp"
+        android:layout_gravity="bottom|start"
+        android:textColor="@color/sent_message_time_color"/>
+
+
+</LinearLayout>

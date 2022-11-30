@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/profileimageview"
+        android:src="@drawable/default_user_img"
+        android:layout_gravity="center"
+        />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:fontFamily="@font/roboto_medium"
+            tools:text="johndoe"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tv_username"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:layout_marginTop="1dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/colorInactive"
+            android:textSize="18sp"
+            android:fontFamily="@font/roboto_light"
+            tools:text="Hey I'm using messenger ! ncbnxcbnxbc"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tv_lastmsg"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_time"
+        android:textColor="@color/colorInactive"
+        android:textSize="18sp"
+        android:fontFamily="@font/roboto_light"
+        tools:text="12:28 AM"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="bottom|end"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="end">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                android:background="@drawable/round_grey_bg"
+                android:padding="3dp"
+                android:layout_gravity="right"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/clicktodownoad"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="Tap to view"
+                    android:textColor="@color/colorAccent"
+                    android:paddingTop="23dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:textSize="18sp"
+                    android:paddingLeft="15dp"
+                    />
+
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/imagethumbnailbackground"
+                    android:layout_gravity="right"
+                    android:layout_marginEnd="5dp"
+                    android:paddingTop="5dp"
+                    android:id="@+id/imagethumbnail"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:text="12:20 AM"
+        android:fontFamily="@font/roboto_light"
+        android:textSize="12sp"
+        android:layout_gravity="bottom|end"
+        android:textColor="@color/sent_message_time_color"/>
+
+
+
+</LinearLayout>

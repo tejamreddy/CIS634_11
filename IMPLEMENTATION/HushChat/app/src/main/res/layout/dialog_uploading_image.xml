@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_grey_bg"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/txt_dia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/roboto_bold"
+            android:paddingLeft="30dp"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="25dp"
+            android:paddingRight="10dp"
+            android:text="Uploading Image"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/txt_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/roboto_bold"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="25dp"
+            android:paddingRight="10dp"
+            android:text="0 %"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+
+    <ProgressBar
+        android:id="@+id/pbProcessing"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:indeterminateTint="@color/colorAccent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appname"
+        android:indeterminateOnly="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+
+
+
+
+</LinearLayout>

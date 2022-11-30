@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:minWidth="80dp"
+        android:minHeight="50dp"
+        android:background="@color/received_message_background_color"
+        android:orientation="vertical"
+        >
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|start"
+                android:padding="5dp"
+                tools:text="Hi"
+                android:maxWidth="250dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/roboto_light"
+                android:textColor="@color/received_message_title_color"
+                android:id="@+id/tv_text"
+                />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:text="12:20 AM"
+                android:fontFamily="@font/roboto_light"
+                android:textSize="12sp"
+                android:layout_gravity="bottom|start"
+                android:textColor="@color/received_message_time_color"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

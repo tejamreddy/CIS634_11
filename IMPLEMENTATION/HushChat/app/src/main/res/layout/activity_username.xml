@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Activites.Username">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="@color/colorAccent"
+        android:text="Username:"
+        android:textSize="16sp"
+        android:layout_marginTop="60dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/roboto_light"
+        android:layout_marginEnd="10dp"
+        android:gravity="start"
+        android:text="Your username cannot be smaller than 4 characters. A username can only contain alphanumeric characters (letters A-Z, numbers 0-9) with the exception of underscores."
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/edtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edt_background"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="@font/roboto_medium"
+        android:hint="Type username"
+        android:textAlignment="viewStart"
+        android:paddingLeft="15dp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#e6e6e6"
+        android:inputType="text|textNoSuggestions"
+        android:maxLines="1"
+        android:maxLength="14"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstvuwxyz0123456789_"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:text="Done"
+        android:id="@+id/btnusernamedone"
+        android:background="@drawable/btn_background"
+        android:layout_gravity="right"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="40dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:fontFamily="@font/roboto_bold"/>
+
+
+
+</LinearLayout>
